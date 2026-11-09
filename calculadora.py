@@ -17,3 +17,7 @@ def tangente(angulo):
     return math.tan(math.radians(angulo))
 def exponencial(x):
     return math.exp(x)
+def logaritmo(x):
+    if x <= 0:
+        raise ValueError("x debe ser positivo")
+    return math.log(x)
