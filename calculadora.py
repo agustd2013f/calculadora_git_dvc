@@ -11,3 +11,5 @@ def dividir(a, b):
     return a / b
 def seno(angulo):
     return math.sin(math.radians(angulo))
+def coseno(angulo):
+    return math.cos(math.radians(angulo))
